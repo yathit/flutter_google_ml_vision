@@ -34,10 +34,7 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.google.mlkit:face-detection:16.0.7'
         implementation 'com.google.mlkit:barcode-scanning:16.1.1'
-        implementation 'com.google.mlkit:image-labeling:17.0.3'
-        implementation 'com.google.mlkit:object-detection:16.2.4'
         implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.1.3'
     }
 }
