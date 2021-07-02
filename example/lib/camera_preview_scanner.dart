@@ -86,6 +86,8 @@ class _CameraPreviewScannerState extends State<CameraPreviewScanner> {
         return _imageLabeler.processImage;
       case Detector.face:
         return _faceDetector.processImage;
+      case Detector.cloudLabel:
+        break;
     }
 
     return null;
